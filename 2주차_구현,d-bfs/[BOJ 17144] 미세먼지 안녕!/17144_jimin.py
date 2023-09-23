@@ -1,5 +1,9 @@
-# spread 함수 틀린 이유 ?_?
+'''
+1. spread 함수 틀린 이유 ?_?
+    : map 값을 바로바로 업데이트 하면 데이터 불일치 문제 발생 -> diffused 배열을 필터처럼 만들어서, 확산 변경사항을 한번에 반영해준다.
 
+2. dx, dy, direction 을 설정해서 시계/반시계 방향 회전 구현하는 법 기억해둘것
+'''
 import sys
 
 r,c,t = map(int,input().split())
