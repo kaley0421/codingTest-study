@@ -1,3 +1,6 @@
+'''
+참고 링크: https://suri78.tistory.com/11
+'''
 arr1 = input()
 arr2 = input()
 
